@@ -1,0 +1,1 @@
+﻿"Bosch", "Automatic", 2.7, 1600, "beans"
