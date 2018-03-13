@@ -13,8 +13,6 @@ public class CoffeeMachine {
         this.typeOfCoffeeMachine = typeOfCoffeeMachine;
     }
 
-
-
     public String concatString (){
         return brand + ", " + weight + ", " + power + ", " + typeOfCoffeeMachine;
     }
