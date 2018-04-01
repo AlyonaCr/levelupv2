@@ -10,7 +10,7 @@ public class Main {
 
      CoffeeMachine coffeeMachine = new CoffeeMachine(null, 0, 0 , null);
 
-        System.out.println("Before: " + coffeeMachine.concatString());
+        System.out.println("Before reflection: " + coffeeMachine.concatString());
 
         ArrayList<String> groupOfSigns = new ArrayList<String>();
 
@@ -99,8 +99,7 @@ public class Main {
 
             }
 
-            System.out.println("After: " + coffeeMachine.concatString());
+            System.out.println("After reflection: " + coffeeMachine.concatString());
         }
-
 
     }
